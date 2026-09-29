@@ -1,18 +1,16 @@
-# 好好處理｜手足整理與日常照護資訊
+# 全齡護甲中心｜Nails & Health
 
-這是純 HTML、CSS、JavaScript 的靜態網站。入口為 `index.html`。
+靜態網站，入口為 `index.html`；品牌 SVG 標誌為 `logo.svg`。
 
-## 檔案
+## 發布
 
-- `index.html`：網站內容與頁面結構
-- `styles.css`：視覺樣式與行動版排版
-- `script.js`：手機導覽互動與頁尾年份
-- `milan-transit.png`：舊素材，目前不在網站頁面使用
+GitHub 儲存庫 `waynelin6955-eng/nails` 用於版本控制；Zeabur 從 `main` 分支自動部署。
 
-## 發布方式
+## 官方連結
 
-GitHub 儲存庫 `waynelin6955-eng/nails` 用於版本控制；Zeabur 從 `main` 分支讀取網站並負責對外服務。將更新提交至 `main` 後，Zeabur 會自動重新部署。
+- Instagram：<https://www.instagram.com/nails98412/>
+- LINE：<https://lin.ee/wmqKW64>
 
-## 上線前需補齊
+Logo 圖樣與品牌色依官方 Instagram 公開頭像視覺繪製為 SVG；品牌主色為酒紅，搭配白色與深色文字。若持有向量原始 Logo，可替換 `logo.svg` 以使用正式標準檔。
 
-確認實際服務項目與服務者資格、成立背景、作品照片及授權、公益活動紀錄、電話／LINE／地址／營業時間。網站不提供診斷或治療，衛教只作一般資訊參考。涉及醫療服務或醫療廣告的最終文字，應由業者依實際身分、服務內容和主管機關規定另行確認。
+網站介紹一般美業服務及照護資訊，不提供醫療診斷或治療；涉及醫療廣告時，最終文案應由業者依實際身分與服務內容另行確認。

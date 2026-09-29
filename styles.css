@@ -2,3 +2,76 @@
 @media(max-width:1000px){.site-header{padding:0 4vw}.nav{gap:12px;font-size:10px}.trust-strip{margin:0 6vw}.hero{padding-left:7vw;padding-right:7vw}.section,.process-band,.community,.contact{padding-left:7vw;padding-right:7vw}.process-inner,.about{gap:55px}.gallery-copy{padding:35px}.faq{gap:45px}footer{padding-left:7vw;padding-right:7vw}}
 @media(max-width:760px){.site-header{height:72px;padding:0 6vw}.menu-toggle{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;background:white;display:grid;align-content:center;justify-content:center;gap:5px}.menu-toggle span{display:block;width:16px;height:1px;background:var(--ink);transition:transform .2s}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(3px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-3px) rotate(-45deg)}.nav{display:none;position:absolute;top:71px;left:0;right:0;background:#fff;padding:13px 6vw 22px;box-shadow:0 14px 20px #25382f10;align-items:stretch;flex-direction:column;gap:0;font-size:12px}.nav.open{display:flex}.nav a{padding:10px 0;border-bottom:1px solid #f0f2ed}.nav .nav-cta{text-align:center;margin-top:11px;padding:11px}.hero{grid-template-columns:1fr;padding:59px 7vw 66px;gap:10px}.hero h1{font-size:clamp(37px,8vw,54px)}.hero-art{height:295px;max-width:390px;width:100%;margin:0 auto}.arch{height:260px;width:220px;right:18%}.sun{width:150px;height:150px}.art-card{bottom:22px}.hero-scroll{left:7vw;bottom:19px}.trust-strip{margin:0 7vw;padding:20px 0;grid-template-columns:1fr;gap:13px}.trust-strip>div,.trust-strip>div:first-child{padding:0;border:0}.trust-strip>div>span{width:25px}.trust-strip small{font-size:9px}.section{padding:72px 7vw}.section-heading{grid-template-columns:1fr;gap:12px;margin-bottom:32px}.section-heading h2{font-size:31px}.service-grid,.care-grid{grid-template-columns:1fr}.service-card{min-height:270px;padding:25px}.process-band{padding:65px 7vw}.process-inner{grid-template-columns:1fr;gap:28px}.process-title h2{font-size:31px}.process-list li{padding-bottom:17px;margin-bottom:17px}.gallery-empty{grid-template-columns:1fr}.gallery-art{min-height:260px}.gallery-copy{padding:30px 26px}.gallery-copy h3{font-size:21px}.about{grid-template-columns:1fr;gap:34px}.about-visual{height:290px}.about-circle{width:210px;height:210px}.about-visual:before{height:205px}.about-visual:after{font-size:65px;bottom:41px}.care-section .section-heading{margin-bottom:30px}.care-card{min-height:0;padding:23px}.care-symbol{margin:11px 0 8px}.care-disclaimer{text-align:left;line-height:1.8}.community{grid-template-columns:45px 1fr;gap:17px;padding:48px 7vw}.community-mark{width:42px;height:42px;font-size:20px}.community h2{font-size:23px}.community-copy>p:last-child{font-size:10px}.community-link{grid-column:2;justify-self:start;margin-top:1px}.faq{grid-template-columns:1fr;gap:27px}.faq .section-heading h2{font-size:31px}.contact{padding:60px 7vw}.contact-inner{grid-template-columns:1fr;gap:23px}.contact-card{padding:24px}.contact h2{font-size:32px}footer{padding:22px 7vw;flex-wrap:wrap;gap:14px}footer p{order:3;width:100%}.footer-brand{margin-right:auto}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Nails & Health brand identity, based on the public nails98412 profile. */
+:root{--ink:#302d2e;--muted:#756c6e;--green:#a8324b;--green-dark:#752638;--cream:#fbf8f7;--pale:#f8edef;--line:#eadde0;--clay:#c98795}
+body{background:#fffdfc}
+.brand-mark{background:transparent;color:var(--green);fill:currentColor;width:43px;height:43px;border-radius:0;flex:0 0 43px}
+.brand-logo{display:block;width:210px;height:auto}
+.brand-name{letter-spacing:.055em;color:#302d2e}
+.brand small{color:#826c71;letter-spacing:.12em}
+.site-header{background:#fffdfced;border-bottom-color:#f0e8e9}
+.nav{color:#65595c}
+.nav a:hover,.text-link:hover,.arrow-link:hover{color:#81243a}
+.nav .nav-cta,.button{background:#a8324b;color:#fff}
+.nav .nav-cta:hover,.button:hover{background:#752638}
+.eyebrow,.card-kicker,.care-card>a,.contact-card .arrow-link,.footer-social a{color:#a8324b}
+.eyebrow-line,.dot{background-color:#c98795}
+.note-mark{background:none;color:#a8324b}
+.hero{background:#fbf8f7}
+.sun{background:#e6c3c9}
+.arch{background:#d7b4bb}
+.arch-inner{background:#f5e9eb}
+.plant,.plant:before,.plant:after,.plant i,.plant b{background:#a44a5a}
+.plant{border-left-color:#a44a5a}
+.art-orbit{border-color:#d8aeb7}
+.art-card{box-shadow:0 8px 28px #75263812}
+.trust-strip{border-bottom-color:#eadde0}
+.trust-strip>div{border-right-color:#eadde0}
+.trust-strip>div>span,.card-index,.process-list li>span,.about-number{color:#a8324b}
+.service-card{border-color:#eee3e5}
+.service-card:hover{box-shadow:0 14px 35px #7526380e}
+.service-icon{background:#f8edef;color:#a8324b}
+.icon-chat{border-color:#eadde0;background:#fff}
+.icon-hand:before,.icon-hand i{border-color:#a8324b}
+.icon-hand b{border-top-color:#a8324b}
+.service-card-note{background:#fcf8f8}
+.process-band,.care-section{background:#faf4f5}
+.process-list li{border-bottom-color:#eadde0}
+.gallery-art{background:#f6e9ec}
+.swatch-one{background:#dcb6bf}
+.swatch-two{background:#b43c53}
+.swatch-three{background:#fff9fa}
+.gallery-frame{border-color:#8d3047;background:#ffffff49}
+.gallery-frame span,.gallery-frame i,.gallery-leaf{color:#a8324b}
+.gallery-leaf{background:#a8324b}
+.status-pill{color:#8a2c43;border-color:#e8d4d9}
+.status-pill i{background:#b94c62}
+.about-visual{background:#f4e7e9}
+.about-circle{background:#dfb5bc}
+.about-visual:before{background:#a8324b}
+.about-visual:after{color:#fff8f9}
+.about-caption{box-shadow:0 5px 18px #75263810}
+.care-card{border-color:#eee3e5}
+.care-card-featured{background:#f8edef;border-color:#ead5da}
+.care-no{color:#826c71}
+.care-symbol{color:#a8324b}
+.care-disclaimer{color:#756c6e}
+.community{background:#752638}
+.community-mark{border-color:#c98795;color:#f1d9dd}
+.community .eyebrow{color:#f0cdd4}
+.community h2 em{color:#f8e5e8}
+.community-copy>p:last-child{color:#f0dfe2}
+.community-link{border-bottom-color:#d7aab3}
+.faq-list details,.faq-list details:first-child{border-color:#eadde0}
+.faq-list summary i{border-color:#eadde0}
+.faq-list summary i:before,.faq-list summary i:after{background:#a8324b}
+.contact{background:#f8edef}
+.contact-icon{background:#f8edef;color:#a8324b}
+.contact-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.contact-actions .button{margin:0}
+.contact-actions .text-link{color:#a8324b}
+footer{border-top:1px solid #f0e8e9}
+.footer-social{display:flex;gap:17px}
+.footer-social a{font-size:10px;font-weight:600}
+@media(max-width:760px){.brand-logo{width:190px}.menu-toggle{border-color:#eadde0}.menu-toggle span{background:#752638}.nav{box-shadow:0 14px 20px #75263810}.nav a{border-bottom-color:#f3e9eb}}
